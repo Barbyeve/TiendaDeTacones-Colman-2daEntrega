@@ -1,0 +1,400 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/* HEADER */
+.imagenNav img{
+    width: 13rem;
+}
+.botonNav{
+    font-size: x-large;
+    font-style: italic;
+    font-family: 'Shadows Into Light', cursive;
+    font-weight: bold;
+}
+.nav-link{
+    margin: 1rem;
+}
+.nav-link:hover{
+    color: antiquewhite;
+    transform: scale(1.2);
+    transition: 1s;
+}
+.container-fluid{
+    justify-content:flex-end;
+    align-items: flex-end;
+    background-color: brown;
+}
+
+/* INDEX */
+.slogan {
+    font-family: 'Shadows Into Light', cursive;
+    font-size: 400%;
+    text-align: center;
+    margin: 2rem;
+    color: black;
+}
+.slogan:hover{
+    color: brown;
+    transition: 2s;
+}
+
+
+.carousel-inner{
+    height: 50rem;
+}
+
+.cajaFlyers {
+    display: grid;
+    grid-template-areas:
+        "cuotas envio"
+        "cuotas descuento"
+    ;
+    max-width: 100%;
+    height: 31.25rem;
+    margin: 30px;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 2fr;
+    grid-column-gap: 3vh;
+    grid-row-gap: 3vh;
+    color: rgb(197, 19, 19);
+    font-size: 10ch;
+    font-family: 'Abril Fatface', cursive;
+    text-align: center;
+
+
+}
+.envio:hover{
+    transform: scale(1.07);
+    transition: 1s;
+}
+.cuotas:hover{
+    transform: scale(1.07);
+    transition: 1s;
+}
+.descuento:hover{
+    transform: scale(1.07);
+    transition: 1s;
+}
+
+div p {
+    margin: 3rem;
+}
+
+.cuotas {
+    grid-area: cuotas;
+    background-image: url(../img/Untitled\ design.png);
+    background-size: cover;
+    background-position-y: bottom;
+
+}
+
+
+.envio {
+    grid-area: envio;
+    background-image: url(../img/Untitled\ design\ \(2\).png);
+    background-size: contain;
+    /* color: rgb(197, 19, 19);
+    font-size: 10ch;
+    font-family: 'Abril Fatface', cursive;
+    text-align: center; */
+
+}
+
+.descuento {
+    grid-area: descuento;
+    background-image: url(../img/Untitled\ design\ \(1\).png);
+    background-size: cover;
+    background-position-y: center;
+    /* color: rgb(197, 19, 19);
+    font-size: 10ch;
+    font-family: 'Abril Fatface', cursive;
+    text-align: center; */
+
+
+}
+
+/* CONTACTO */
+.contacto{
+    width: 60%;
+    height: 100%;
+    justify-content: space-around;
+}
+.consulta{
+    height: 20%vh;
+}
+
+/* QUIENES SOMOS */
+.quienesSomos{
+    font-size: large;
+    font-weight: 400;
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+    padding: 3rem;
+}
+
+/* NUEVA TEMPORADA */
+.productos img {
+    width: 35vh;
+    height: 50vh;
+}
+
+.productos {
+    margin: 60px;
+    margin-bottom: 150px;
+}
+.productos :hover{
+    transform: scale(1.05);
+    transition: 1s;
+}
+
+.productos {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+    grid-row-gap: 50px;
+    grid-column-gap: 50px;
+    grid-template-areas:
+        "productoLaura productoCarla productoWendy productoMeryl"
+        "productoPamela productoSofia productoPaddy productoTatiana"
+        "ProductoDenise productoAnna productoMilva productoOna"
+        "ProductoAurora productoElsa productoCharry productoMagui";
+}
+
+.productoLaura {
+    grid-area: productoLaura;
+}
+
+.productoCarla {
+    grid-area: productoCarla;
+}
+
+.productoWendy {
+    grid-area: productoWendy;
+}
+
+.productoMeryl {
+    grid-area: productoMeryl;
+}
+
+.productoPamela {
+    grid-area: productoPamela;
+}
+
+.productoSofia {
+    grid-area: productoSofia;
+}
+
+.productoPaddy {
+    grid-area: productoPaddy;
+}
+
+.productoTatiana {
+    grid-area: productoTatiana;
+}
+
+.ProductoDenise {
+    grid-area: ProductoDenise;
+}
+
+.productoAnna {
+    grid-area: productoAnna;
+}
+
+.productoMilva {
+    grid-area: productoMilva;
+}
+
+.productoOna {
+    grid-area: productoOna;
+}
+
+.ProductoAurora {
+    grid-area: ProductoAurora;
+}
+
+.productoElsa {
+    grid-area: productoElsa;
+}
+
+.productoCharry {
+    grid-area: productoCharry;
+}
+
+.productoMagui {
+    grid-area: productoMagui;
+}
+
+
+/* SUCURSALES */
+.sucursales {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    gap: 0px 0px;
+    grid-auto-flow: row;
+    grid-template-areas:
+        "fotoSuc1 infoSuc1"
+        "fotosuc2 infoSuc2"
+        "fotoSuc3 infoSuc3";
+}
+
+.sucursales img {
+    width: 50%;
+    margin: 40px;
+}
+
+.sucursales {
+    font-family: 'Abril Fatface', cursive;
+    text-align: center;
+    font-size: x-large;
+    align-items: center;
+}
+
+
+.sucursal img{
+    height: 20rem;
+    width: 20rem;
+    }
+    .dir{
+        font-size: large;
+        font-family: 'Courier New', Courier, monospace;
+        font-weight: bold;
+    }
+
+/* FOOTER */
+footer ul li {
+    display: inline-block;
+    padding: 20px;
+    margin: 5px;
+    font-size: 3rem;
+    font-weight: bold;
+}
+footer ul li :hover{
+    transform: scale(1.5, 1.5);
+    transition: 1s;
+}
+
+.footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    background-color: rgb(167, 28, 28);
+    margin: 30px;
+    margin-left: 0;
+    margin-right: 0;
+    padding: 30px;
+    background: linear-gradient(0deg, rgba(105,2,15,1) 0%, rgba(182,2,24,1) 87%);
+}
+
+
+
+/* responsive */
+@media(max-width:768px) {
+
+    /* Index */
+    .slogan {
+        font-size: 8vh;
+    }
+
+    .cajaFlyers {
+        display: grid;
+        grid-template-areas:
+            "cuotas"
+            "envio"
+            "descuento"
+        ;
+        height: 100%
+    }
+
+    .envio {
+        background-size: cover;
+        background-position-y: center;
+    }
+
+
+
+
+    /* nueva temporada */
+    .productos {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+        grid-row-gap: 30px;
+        grid-column-gap: 30px;
+        grid-template-areas:
+            "productoLaura productoCarla productoWendy"
+            "productoPamela productoSofia productoPaddy"
+            "ProductoDenise productoAnna productoMilva"
+            "ProductoAurora productoElsa productoCharry"
+            "productoMeryl productoTatiana productoOna"
+            "productoMagui . ."
+            ". . .";
+    }
+
+    .productoLaura {
+        grid-area: productoLaura;
+    }
+
+    .productoCarla {
+        grid-area: productoCarla;
+    }
+
+    .productoWendy {
+        grid-area: productoWendy;
+    }
+
+    .productoPamela {
+        grid-area: productoPamela;
+    }
+
+    .productoSofia {
+        grid-area: productoSofia;
+    }
+
+    .productoPaddy {
+        grid-area: productoPaddy;
+    }
+
+    .ProductoDenise {
+        grid-area: ProductoDenise;
+    }
+
+    .productoAnna {
+        grid-area: productoAnna;
+    }
+
+    .productoMilva {
+        grid-area: productoMilva;
+    }
+
+    .ProductoAurora {
+        grid-area: ProductoAurora;
+    }
+
+    .productoElsa {
+        grid-area: productoElsa;
+    }
+
+    .productoCharry {
+        grid-area: productoCharry;
+    }
+
+    .productoMeryl {
+        grid-area: productoMeryl;
+    }
+
+    .productoTatiana {
+        grid-area: productoTatiana;
+    }
+
+    .productoOna {
+        grid-area: productoOna;
+    }
+
+    .productoMagui {
+        grid-area: productoMagui;
+    }
+}
